@@ -6,9 +6,9 @@ mkdir -p /root/xray
 clear
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c5)
 subsl=$(</dev/urandom tr -dc a-z0-9 | head -c5)
-DOMAIN=namystore.com
-SUB_DOMAIN=pro-${sub}.namystore.com
-NS_DOMAIN=dns-${subsl}.namystore.com
+DOMAIN=namydevx.my.id
+SUB_DOMAIN=pro-${sub}.namydevx.my.id
+NS_DOMAIN=dns-${subsl}.namydevx.my.id
 CF_ID=Namydevx@gmail.com
 CF_KEY=b5f7674fb47a092c689fd7677a92288038198
 set -euo pipefail
